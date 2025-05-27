@@ -3,7 +3,7 @@ import React from 'react';
 const BannerSection = () => {
     return (
         <div>
-            This is banner
+            This is banner section change
         </div>
     );
 };
