@@ -4,6 +4,12 @@ import {
   } from "react-router-dom";
 import Main from "../Layouts/Main/Main";
 import Home from "../Pages/Home/Home/Home";
+import About from "../Pages/About/About";
+import Services from "../Pages/Services/Services";
+import Contact from "../Pages/Contact/Contact";
+import Blog from "../Pages/Blog/Blog";
+import Donation from "../Pages/Donation/Donation";
+import Events from "../Pages/Events/Events";
 
 
 
@@ -15,6 +21,30 @@ import Home from "../Pages/Home/Home/Home";
         {
           path: '/',
           element: <Home/>
+        },
+        {
+          path: '/About',
+          element: <About/>
+        },
+        {
+          path: 'Services',
+          element: <Services/>
+        },
+        {
+          path: 'Contact',
+          element: <Contact/>
+        },
+        {
+          path: 'Blog',
+          element: <Blog/>
+        },
+        {
+          path: 'Donation',
+          element: <Donation/>
+        },
+        {
+          path: 'Events',
+          element: <Events/>
         }
       ]
     },
