@@ -1,13 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
+
 @plugin "daisyui";
-=======
 
 .service-number {
   font-size: 24px;
   color: #ddd;
   margin-top: 10px;
 }
->>>>>>> 58c7fd3ccb864b097bf8cd0ac36dd883e621c78a
+
