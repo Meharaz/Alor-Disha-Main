@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../App.css';
+import '../Services/Services.css';
 import { FaBookOpen, FaChild, FaMosque } from "react-icons/fa";
 import { LiaDonateSolid } from "react-icons/lia";
 import { GiDiamondRing } from "react-icons/gi";
