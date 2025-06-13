@@ -12,7 +12,9 @@
   "dependencies": {
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
+    "framer-motion": "^12.16.0",
     "localforage": "^1.10.0",
+    "lucide-react": "^0.513.0",
     "match-sorter": "^8.0.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
