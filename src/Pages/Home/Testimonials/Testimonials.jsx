@@ -2,7 +2,7 @@ import React from "react";
 import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 
-const testimonials = [
+const testimonials = [  
     {
         color: "bg-green-400",
         name: "Client Name",
@@ -41,6 +41,7 @@ export default function Testimonials() {
                 {testimonials.map((testimonial, index) => (
                     <motion.div
                         key={index}
+                        
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: false, amount: 0.5 }}
