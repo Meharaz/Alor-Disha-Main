@@ -1,4 +1,5 @@
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
+import weblogo from "../../assets/logo.svg";
 
 export default function Footer() {
   return (
@@ -6,12 +7,10 @@ export default function Footer() {
       <div className="grid md:grid-cols-4 gap-10">
         {/* Logo + Description */}
         <div>
-          <div className="flex items-center gap-2 text-3xl font-bold text-white">
-            <div className="text-yellow-500 text-4xl">🏛</div>
-            <span>
-              Alor<span className="text-yellow-500">D</span>isha
-            </span>
-          </div>
+            <div className="w-full">
+              <img className="w-[70%] h-auto max-w-[180px] md:max-w-full" src={weblogo} alt="Logo" />
+            </div>
+
           <p className="mt-4 text-gray-300 leading-relaxed">
             Istiqbal Islamic Center is a vibrant and welcoming community hub
             that serves as a focal point for Muslims seeking spiritual growth,
