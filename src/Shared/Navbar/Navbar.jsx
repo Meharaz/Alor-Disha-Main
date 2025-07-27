@@ -2,11 +2,11 @@ import React from 'react';
 
 const Navbar = () => {
     const navOptions = <>
-        <li><a className="hover:bg-yellow-500  transition-colors duration-300" >Home</a></li>
-        <li><a className="hover:bg-yellow-500 transition-colors duration-300" >Services</a></li>
-        <li><a className="hover:bg-yellow-500 transition-colors duration-300" >Events</a></li>
-        <li><a className="hover:bg-yellow-500 transition-colors duration-300" >Blog</a></li>
-        <li><a className="hover:bg-yellow-500 transition-colors duration-300" >Contact</a></li>
+        <li><a href='http://localhost:5173/' className="hover:bg-yellow-500  transition-colors duration-300" >Home</a></li>
+        <li><a href='http://localhost:5173/services' className="hover:bg-yellow-500 transition-colors duration-300" >Services</a></li>
+        <li><a href='http://localhost:5173/events' className="hover:bg-yellow-500 transition-colors duration-300" >Events</a></li>
+        <li><a href='http://localhost:5173/blog' className="hover:bg-yellow-500 transition-colors duration-300" >Blog</a></li>
+        <li><a href='http://localhost:5173/contact' className="hover:bg-yellow-500 transition-colors duration-300" >Contact</a></li>
     </>
     return (
         <div className='fixed top-0 w-full z-50'>
@@ -28,7 +28,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Donation</a>
+                    <a href='http://localhost:5173/donation' className="btn">Donation</a>
                 </div>
             </div>
         </div>
