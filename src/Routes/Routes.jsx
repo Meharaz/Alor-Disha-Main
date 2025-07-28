@@ -10,6 +10,7 @@ import Contact from "../Pages/Contact/Contact";
 import Blog from "../Pages/Blog/Blog";
 import Donation from "../Pages/Donation/Donation";
 import Events from "../Pages/Events/Events";
+import BloodDoner from "../Pages/BloodDoner/BloodDoner";
 
 
 
@@ -45,6 +46,11 @@ import Events from "../Pages/Events/Events";
         {
           path: 'Events',
           element: <Events/>
+        },
+        
+        {
+          path: 'Blood',
+          element: <BloodDoner/>
         }
       ]
     },

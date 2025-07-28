@@ -12,36 +12,41 @@ const DonationPage = () => {
 
       <div className="flex flex-wrap justify-center gap-8">
         {/* bKash Card */}
-        <div className="bg-white w-full md:w-[30%] rounded-2xl shadow-md p-6 flex flex-col justify-between">
-          <div>
-            <h2 className="text-2xl font-semibold text-pink-600 mb-4">bKash</h2>
-            <p className="text-gray-700 mb-2">
-              <strong>Personal Number:</strong> 01630-080140
-            </p>
-            <p className="text-gray-700 mb-2">
-              <strong>Merchant Number:</strong> 01841-006642
-            </p>
-            <p className="text-gray-700 mb-2">
-              <strong>bKash App Link:</strong>{" "}
-              <a
-                href="https://www.bkash.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-pink-600 underline"
-              >
-                https://www.bkash.com
-              </a>
-            </p>
-            <p className="text-sm text-gray-500 mt-4">
-              After sending money, please keep a screenshot or transaction ID for confirmation.
-            </p>
-          </div>
 
-          {/* bKash Button */}
-          <button className="mt-6 bg-pink-600 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
-            Donate via bKash
-          </button>
-        </div>
+
+   
+            <div className="bg-white w-full md:w-[30%] rounded-2xl shadow-md p-6 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl font-semibold text-pink-600 mb-4">bKash</h2>
+                <p className="text-gray-700 mb-2">
+                  <strong>Personal Number:</strong> 01630-080140
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong>Merchant Number:</strong> 01841-006642
+                </p>
+                <p className="text-gray-700 mb-2">
+                  <strong>bKash App Link:</strong>{" "}
+                  <a
+                    href="https://www.bkash.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-pink-600 underline"
+                  >
+                    https://www.bkash.com
+                  </a>
+                </p>
+                <p className="text-sm text-gray-500 mt-4">
+                  After sending money, please keep a screenshot or transaction ID for confirmation.
+                </p>
+              </div>
+
+              {/* bKash Button */}
+              <button className="mt-6 bg-pink-600 hover:bg-pink-500 text-white font-semibold py-2 px-4 rounded-lg transition duration-300">
+                Donate via bKash
+              </button>
+            </div>
+
+
 
         {/* Bank Details Card */}
         <div className="bg-white w-full md:w-[30%] rounded-2xl shadow-md p-6 flex flex-col justify-between">
