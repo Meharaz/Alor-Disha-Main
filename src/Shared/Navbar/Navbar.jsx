@@ -4,10 +4,11 @@ import weblogo from "../../assets/logo.svg";
 const Navbar = () => {
     const navOptions = <>
         <li><a href='http://localhost:5173/' className="hover:bg-yellow-500 transition-colors duration-300" >Home</a></li>
-        <li><a href='http://localhost:5173/services' className="hover:bg-yellow-500 transition-colors duration-300" >Services</a></li>
-        <li><a href='http://localhost:5173/events' className="hover:bg-yellow-500 transition-colors duration-300" >Events</a></li>
-        <li><a href='http://localhost:5173/blog' className="hover:bg-yellow-500 transition-colors duration-300" >Blog</a></li>
-        <li><a href='http://localhost:5173/contact' className="hover:bg-yellow-500 transition-colors duration-300" >Contact</a></li>
+        <li><a href='http://localhost:5173/Services' className="hover:bg-yellow-500 transition-colors duration-300" >Services</a></li>
+        <li><a href='http://localhost:5173/Events' className="hover:bg-yellow-500 transition-colors duration-300" >Events</a></li>
+        <li><a href='http://localhost:5173/Blog' className="hover:bg-yellow-500 transition-colors duration-300" >Blog</a></li>
+        <li><a href='http://localhost:5173/Contact' className="hover:bg-yellow-500 transition-colors duration-300" >Contact</a></li>
+        <li><a href='http://localhost:5173/Blood' className="hover:bg-yellow-500 transition-colors duration-300" >Blood Doner</a></li>
     </>;
 
     return (
